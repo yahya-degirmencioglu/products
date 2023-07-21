@@ -1,6 +1,6 @@
 package de.yahya.products;
 
-import de.yahya.products.model.Product;
+
 import de.yahya.products.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -8,8 +8,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-
-import java.util.List;
 
 @SpringBootApplication
 public class ProductApplication implements WebMvcConfigurer, CommandLineRunner {

@@ -1,10 +1,6 @@
 package de.yahya.products.model;
 
 import java.io.Serializable;
-import java.util.Locale;
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 import lombok.*;
@@ -68,13 +64,6 @@ public class Product implements Serializable {
      */
     @Positive
     private int quantity;
-
-
-   /* public String getPriceDE() {
-        DecimalFormat priceFmt = (DecimalFormat) NumberFormat.getNumberInstance(Locale.GERMANY);
-        priceFmt.setMaximumFractionDigits(2);
-        return priceFmt.format(price);
-    }*/
     /**
      * Gibt eine textuelle Darstellung des Produkts zurück.
      *

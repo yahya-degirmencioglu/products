@@ -64,24 +64,6 @@ public class ProductApplicationTest {
 		assertEquals(5, product.getQuantity());
 	}
 
-	/* @Test
-	public void testGetPriceDE() {
-		product.setPrice(10.99);
-		assertEquals("10,99", product.getPriceDE());
-	}
-
-	@Test
-	public void testToString() {
-		product.setId(4L);
-		product.setName("Testprodukt");
-		product.setDescription("Das ist ein Testprodukt.");
-		product.setPrice(10.99);
-		product.setQuantity(5);
-
-		String expectedString = "Product{id=4, name='Testprodukt', description='Das ist ein Testprodukt.', price=10.99', quantity=5}";
-		assertEquals(expectedString, product.toString());
-	} */
-
 	/**
 	 * Helfermethode zum Überprüfen, ob double-Werte ungefähr gleich sind.
 	 *
